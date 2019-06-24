@@ -20,11 +20,6 @@ function App() {
           id: uuid.v4(),
           title: "Dinner with wife",
           completed: false
-        },
-        {
-          id: uuid.v4(),
-          title: "Meeting with boss",
-          completed: false
         }
     ])
 
