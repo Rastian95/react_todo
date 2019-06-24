@@ -15,11 +15,6 @@ function App() {
           id: uuid.v4(),
           title: "Take out the trash",
           completed: false
-        },
-        {
-          id: uuid.v4(),
-          title: "Dinner with wife",
-          completed: false
         }
     ])
 
