@@ -51,7 +51,10 @@ function App() {
       title: title,
       completed: false
     }
-    setState([...todos, newTodo]);
+    if(title){
+      setState([...todos, newTodo]);
+    }
+    
   }
 
   return (
